@@ -3,3 +3,4 @@
 *.s   text eol=lf
 *.ld  text eol=lf
 *.ioc text eol=lf
+*.txt text eol=lf
