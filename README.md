@@ -126,10 +126,7 @@ During each commutation step:
 
 ## Speed and Timing
 - For six-step commutation, one electrical revolution = six commutation steps
-- Commutation interval calculated from mechanical RPM using:
-$$
-T_{comm} = \frac{60,000,000}{RPM \times N_{pole\ pairs} \times 6}
-$$
+- Commutation interval ``T_comm`` calculated from mechanical RPM using ``T_comm = 60,000,000 / (RPM * pole pairs * 6)``
 - For this design:
     - Calculations assume a 3-pole-pair motor
     - Potentiometer ADC value is directly used as the requested motor RPM
